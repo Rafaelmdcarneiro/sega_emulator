@@ -1,0 +1,23 @@
+name: sega_emulator
+description: Sega Master System Emulator in Flutter
+
+publish_to: 'Rafael Carneiro'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.0.2
+  path: ^1.8.3
+  file_picker: ^5.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  ffigen: ^8.0.2
+
+flutter:
+  uses-material-design: true
